@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shooting Stars Photography Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .slideImages {
+            display: none;
+        }
+    </style>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("slideImages");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
 </head>
+
 <body>
-    <div class="images">
-        
+    <div id="homepage">
+        <div class="images">
+            <h3 class="h3_home">To view images click button</h3>
+            <img class="slideImages" src="https://lh3.googleusercontent.com/KE97iaPp8v6yOA5ugFYmLA3PUiPP4d9JfEuWwcPH6Z9f2XPp3HdKa4dgTPzyn81Ub57VJFbSu4pFY_iekxWxikGU5vjRKQnZT8MNyAiGKpXCxPaG2KyLBWUYm09DaM29iWJWjQatPa4kL4wb1G2_VqUCACLn80OoOVtwpB_f2zuurcx0whSLKopgTE1nr4rWG0Ji66wryx_u_j1ExkdDkKKS66LxoSpDO8O1HEOzewKY_aCDWnMU_v-Qj_VRQgnpn2MqP3Isqz5G5bQAjzFdOtJS0mgrpdcUMid98Y7R3S1hLgTRc1Xsk7ePGTY0NfSON14-31HfPLuRxx0sAcpeLfR65wNY_G68c7Zj_Dq9DU5B23Klv0nB34llB5hPd-isl00oCM3wUfJPi9A5hoZbxxK7DcsjPiTD4PkCDWECmBQFxzyNpJ3QZNy9hS5s3GA50VWvm61YT1tH2lo51di3g6Og6Aptx865dg1AcAW18YPSOQ12prBFuDdf64kGJA7QTo46_gDMNBM0woF0rYqpw_DdZ4BTrFlf8VSHXekYZZ4NVh6gZZhj8vFaFtWToc3NVltCj9LCg8FoMF6bHwpxfWOIrPyvFLPQyV2ups4HK9kuGKZ35B-0_C42NS_6ol0oCzppun5JBIwtpkuDdVhwTZblybAAo-HqydH-_loX-P8KiYMI8R0OIF-OMpLI8cJ0rtzAFD84Nva7zJAFhvQ=w876-h657-no?authuser=0" style="width: 100%;">
+            <img class="slideImages" src="https://lh3.googleusercontent.com/KrB_7u20soykfc7r4ppkAaoGIdzgIlWvy2mLlYnZD48r-WPpMOFynAhKNT3EMaqwRPKgRr2Py61wsZvYn1ng73DYBKFu--1Tew_A2UdaqXFBUPhUNfxmd3_Y1O1m216nxFFap2Ad_b3Tz4PCsMH4pa25C2x2uwoJh5Aq-LBS56-U4sp1-9Gj3NWx4_kZUx4jjV3_GyavyvHGSS5nqgeiIXBS6ygdYNNlYk8IJXtE52QaNeU_NP6tK2YYc9aFsPhD7qakIBoLAo1uTvs2yyCd02zY-NZna2Q2t1OwJEcMaYy3Y_j0XdVeLgFDxbPhV70ROJoJ9WoD_lVmy9Hqhp3AMxsPqhxVovg0qOeEJGdDc-2TqoWvwmJd5Kw3UY84fZ7c-ZMdclfgwzvrVr3Wtoa3n28iavulNwjGoujQAhNo4qwPhnnluCqItt0EJ_0fjnkSXe89gW7x2niaQgeZv1bFovM6Ddx5GUjBlVI541suBWj9vgv1HcTdjTs9eQvKT3PyUkVxyW9lAEn70fnyi4XYEnDeD08L648804z7mttdnRzku5ewIVvEEFGSRzDZ2oLqq_717GOEtRgk1F6QaMO4nRpH2nB_xiK94eEamUfbcIG8lzklCS6v7xgm2S6ryHMyn60xd5wwjwaZO6nw5kQy-WJcGyPumJ1NspgtGGeTvFjT8bm1jCT-0WbdIe4z7PTvjkzHHv3Sk2rKgbP8IkE=w986-h657-no?authuser=0" style="width: 100%;">
+            <img class="slideImages" src="https://lh3.googleusercontent.com/pw/ACtC-3crdQJ7A3780ypTgS9vSGCE20WfL4jANlF1UvlswoK9zJ9Iw4vcO6f-ErVAeXX_qntrCOJFVL-JnV8ZSjDcDe-OhSyDvbowdUHnYGMhJf8oa1Avp5DJGhLMTZLKEI-hNaBX6p5u9JtLV94LWXWe0p3h=w986-h657-no?authuser=0" style="width: 100%;">
+            <img class="slideImages" src="https://lh3.googleusercontent.com/pw/ACtC-3fUmy8a4zESBaHfp3fGJGddbukPdM7dc_WISFX8OIrI5-n8b2tlie_ZIYq_iHvE19yQ7v2-2jzkqmSvSWKcYLYtg46dUN56VLo40EWObmHJJuuHjgInduxioKaw-EBJl3P4D32xv7ykmi6I98PUK0yt=w986-h657-no?authuser=0" style="width: 100%;">
+            <button class="left" onclick="plusDivs(-1)">< previous</button>
+            <button class="right" onclick="plusDivs(+1)">next ></button>
+        </div>
     </div>
 </body>
+
 </html>

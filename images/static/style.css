@@ -1,8 +1,8 @@
 
-/* bphotography.html */
+/* shootingStars.html */
 
 #container {
-    height: 900px;
+    height: 760px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("https://lh3.googleusercontent.com/OTrb18XDnkxAWm6pTlkKpPe4DkQUGrWUPBMhCEUbc0kbNeN6Ubu8zLs_rf-vaHI8FNXNZLFtL8NfgkaqH7AC3L8cGTJe5roqQqVpFSH9lNGsaT88Q7gl4dpaw5DCRKnzgQn7Pgvel2tSCfWkhHmLQvcz6wu8ehI4piKC-04ZxqJuLOj0szYuLcxpQ69XO-RSQpLkNLeCURNH1tnIYawWjhkGf-tQY0n9hVogKRFzGjH2F6Beamm7Q8S0VSUCnJKzbffu8zpvVlm-CXb62dnNj1_t23neOxHPdMgjrzQQ1g3oJEHNX-TqiJyLadCsbjpeMHq2TFCh_vuVWqnAJ5HYEwdAyNqfS8MMDwBOzQJfn6VQeEeYREPQ6ZgLCg0cvKshPOZKkmKZMMzzTNJxkrQKOP0hVy84LG2n_wlb9aCHIiLDlSxzlPvGW8pISHKsbOs_PtZk_Ce99XNtQ4CwbIElDJ07JfriNlnYa2fQToPswmeAG2CmoBzW8KVx-9METsRBm16wI6Q7gZcNFfT3FN6BOuDt-s1uDa8LAwupclzdLN34f2MrPb0NaXwe5K4DP5Df2ZMKpfcjpwrqtZXE0PR1g0YyQUTN8nH3RLd9CAT0WMA6Hrsk8vCUjx06QWemTYSoc4-pghRVwWDWpubC-LEtPNoS1OoEylqh8lH_Wbk3JdJSvlSBHTVVJ6wmsodHSNWDCqnQMR3dGZnFRpknWA=w1454-h969-no?authuser=0");
@@ -14,8 +14,7 @@
     border: 8px double white;
     border-top-right-radius: 70px 70px;
     border-bottom-left-radius: 70px 70px;
-    filter: blur(2px);
-    filter: drop-shadow(10px);
+    filter: blur(1px);
     text-align: center;
     color: salmon;
     font-size: 30px;
@@ -28,8 +27,35 @@
 
 .home_link {
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     width: 300px;
     font-size: 15px;
+}
+
+
+/* home.html */
+
+#homepage {
+    background-color: black;
+    height: 750px;
+}
+
+.images {
+    margin: auto;
+    width: 500px;
+    padding-top: 50px;
+}
+
+.slideImages {
+    height: 300px;
+}
+
+.h3_home {
+    text-align: center;
+    color: white;
+}
+
+.right {
+    margin-left: 330px;
 }
