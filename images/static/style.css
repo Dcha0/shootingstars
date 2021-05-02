@@ -37,18 +37,37 @@
 /* home.html */
 
 #homepage {
+    margin: auto;
+    width: auto;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/678/030/original/gold-stars-background.jpg");
+    background-size: cover;
+    padding: 30px;
+}
+
+.title {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 500px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Lobster', cursive;
+    border: 8px double gold;
+    border-top-right-radius: 70px 100px;
+    border-bottom-left-radius: 70px 100px;
     background-color: black;
-    height: 750px;
+    text-align: center;
 }
 
 .images {
     margin: auto;
-    width: 500px;
+    width: 400px;
     padding-top: 50px;
 }
 
 .slideImages {
-    height: 300px;
+    height: 200px;
 }
 
 .h3_home {
@@ -57,5 +76,20 @@
 }
 
 .right {
-    margin-left: 330px;
+    margin-left: 230px;
+}
+
+.aboutMe {
+    color: gold;
+    display: inline-block;
+    margin-left: 150px;
+    background-color: black;
+    border: 5px solid white;
+}
+
+.myPic {
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
 }
