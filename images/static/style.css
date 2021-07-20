@@ -1,5 +1,8 @@
 
 /* shootingStars.html */
+*{
+    width: auto;
+}
 
 #container {
     height: 760px;
@@ -37,59 +40,43 @@
 /* home.html */
 
 #homepage {
-    margin: auto;
-    width: auto;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/678/030/original/gold-stars-background.jpg");
-    background-size: cover;
-    padding: 30px;
+    background-color: black;
+    height: 800px;
 }
 
 .title {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    width: 500px;
+    padding-top: 15px;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    text-align: center;
+    font-size: 25px;
     font-family: 'Lobster', cursive;
-    border: 8px double gold;
-    border-top-right-radius: 70px 100px;
-    border-bottom-left-radius: 70px 100px;
-    background-color: black;
+    text-decoration: underline yellow;
+}
+
+table {
+    width: 100%;
+    padding-top: 5px;
+    border-bottom: 2px solid floralwhite;
+}
+
+.home-link {
+    color: silver;
     text-align: center;
+    font-style: italic;
 }
 
-.images {
-    margin: auto;
-    width: 400px;
-    padding-top: 50px;
+.me {
+    border: 2px solid silver;
+    margin: 15px;
+    width: 500px;
 }
 
-.slideImages {
-    height: 200px;
+h3 {
+    color: floralwhite;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-.h3_home {
-    text-align: center;
-    color: white;
-}
-
-.right {
-    margin-left: 230px;
-}
-
-.aboutMe {
-    color: gold;
-    display: inline-block;
-    margin-left: 150px;
-    background-color: black;
-    border: 5px solid white;
-}
-
-.myPic {
-    width: 800px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 60px;
+p {
+    color: thistle;
 }
