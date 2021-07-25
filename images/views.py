@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Create your views here.
 def shootingStars(request):
@@ -6,3 +6,6 @@ def shootingStars(request):
 
 def home(request):
     return render(request, "home.html")
+
+def backhome(request):
+    return redirect("/")
