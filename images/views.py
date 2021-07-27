@@ -4,8 +4,8 @@ from django.shortcuts import render, redirect
 def shootingStars(request):
     return render(request, "shootingStars.html")
 
-def home(request):
-    return render(request, "home.html")
+def aboutme(request):
+    return render(request, "aboutme.html")
 
 def backhome(request):
     return redirect("/")

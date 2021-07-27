@@ -2,33 +2,36 @@
 /* shootingStars.html */
 * {
     width: auto;
+    margin: auto;
 }
 
 #container {
     margin: 0 auto;
     width: auto;
+    text-align: center;
 }
 
 h1 {
     display: inline-block;
     font-family: 'Racing Sans One', cursive;
-    margin-left: 200px;
     color: blue;
+    text-align: left;
 }
 
 h4 {
     display: inline-block;
-    margin-left: 630px;
     font-family: 'Herr Von Muellerhoff', cursive;
+    margin-left: 700px;
     font-size: 30px;
 }
 
 h3 {
     font-family: 'Racing Sans One', cursive;
-    margin-left: 250px;
-    margin-top: -57px;
     padding-bottom: 15px;
     color: blue;
+    text-align: left;
+    margin-left: 250px;
+    margin-top: -15px;
 }
 
 a {
@@ -47,4 +50,5 @@ img {
     border-bottom: 2px solid black;
     padding-top: 40px;
     padding-bottom: 40px;
+    display: inline-block;
 }
