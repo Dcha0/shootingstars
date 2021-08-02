@@ -10,9 +10,10 @@ h1 {
     padding-top: 30px;
 }
 
-.me {
+.picOfMe {
     width: 85%;
     margin-top: 10px;
+    margin-bottom: 15px;
     padding: 15px;
     border: 4px double gray;
 }
@@ -34,6 +35,18 @@ h3 {
 }
 
 p {
-    display: inline-block;
-    text-align-last: right;
+    float: right;
+    text-overflow: clip;
+    width: 680px;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-top: -350px;
+    word-wrap: break-word;
+}
+
+a {
+    margin: 186px;
+    text-decoration: none;
+    font-family: 'Gabriela', serif;
+    color: darkblue;
 }
